@@ -1,0 +1,154 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sofia+Sans+Semi+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Homochaf</title>
+</head>
+<body>
+    <header class="head">
+        <nav class="navbar">
+            <img class="logo" src="./assets/logo.png">
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#recipes-header" class="nav-link">Recipes</a>
+                </li> 
+                <li class="nav-item">
+                    <a href="#categ-container" class="nav-link">Categories</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="recipes-header" id="recipes-header">
+            <div>
+                <h1 class="title">Recipes</h1>
+            </div>
+
+            <form action="" class="input-form">
+                <input type="text" placeholder="Find a recipe" class="usr-inp">
+                <span class="search-btn">
+                    <i class="fa fa-search" ></i>
+                </span>
+            </form>
+        </div>
+        <div class="searchOptions">
+        </div>
+        <div class="recipe-container">
+            <!-- first box -->
+            <div class="box">
+                <!-- 2 divs, img and detail -->
+                <div class="slide-img">
+                    <img src="./assets/placeholder.gif" alt="1">
+                </div>
+                <div class="detail-box">
+                    <!-- <div class="type">
+                        ...
+                    </div> -->
+                    <!-- <div class="recipe-descr">
+                        ...
+                    </div> -->
+                </div>
+            </div>
+             
+        </div>
+        
+        <div class="categ-container" id="categ-container">
+            <h1 class="title">By Categories</h1>
+    
+            <div class="filters-container" id="filters-container">
+               <div class="filter">
+                    <button class="filter-btn" value="Beef">
+                        <img class="categoryImg" src="./assets/category/meat/beef-steak.png">
+                        <h3>Beef</h3>
+                    </button>
+               </div>
+               <div class="filter">
+                    <button class="filter-btn" value="Chicken">
+                        <img class="categoryImg" src="./assets/category/meat/chicken-leg.png">
+                        <h3>Chicken</h3>
+                    </button>
+                </div>
+                <div class="filter">
+                    <button class="filter-btn" value="Lamb">
+                        <img class="categoryImg" src="./assets/category/meat/lamb.png">
+                        <h3>Lamb</h3>
+                    </button>
+                </div>
+                <div class="filter">
+                    <button class="filter-btn" value="Pork">
+                        <img class="categoryImg" src="./assets/category/meat/chop.png">
+                        <h3>Pork</h3>
+                    </button>  
+                    
+                </div>
+                <div class="filter">
+                    <button class="filter-btn" value="Goat">
+                        <img class="categoryImg" src="./assets/category/meat/goat2.png">
+                        <h3>Goat</h3>
+                    </button>
+                </div>
+                <div class="filter">
+                    <button class="filter-btn" value="Seafood">
+                        <img class="categoryImg" src="./assets/category/meat/seafood.png">
+                        <h3>Seafood</h3>
+                    </button>
+               </div>
+               <div class="filter">
+                    <button class="filter-btn" value="Vegan">
+                        <img class="categoryImg" src="./assets/category/meat/vegan.png">
+                        <h3>Vegan</h3>
+                    </button>
+                </div>
+                <div class="filter">
+                    <button class="filter-btn" value="Vegetarian">
+                        <img class="categoryImg" src="./assets/category/meat/Vegetarian.png">
+                        <h3>Vegetarian</h3>
+                    </button>
+                </div>
+                <div class="filter">
+                    <button class="filter-btn" value="Dessert">
+                        <img class="categoryImg" src="./assets/category/meat/dessert.png">
+                        <h3>Dessert</h3>
+                    </button>
+               </div>
+               <div class="filter">
+                    <button class="filter-btn" value="Side">
+                        <img class="categoryImg" src="./assets/category/meat/side.png">
+                        <h3>Side</h3>
+                    </button>
+                </div>
+                <div class="filter">
+                    <button class="filter-btn" value="Starter">
+                        <img class="categoryImg" src="./assets/category/meat/starter.png">
+                        <h3>Starter</h3>
+                    </button>
+                </div>
+                
+            </div>
+            <div class="filterRes">
+                
+                <!-- <div class="meat-card">
+                </div> -->
+            </div>
+            
+
+        </div>
+        
+    </div>
+    <div class="viewRecipeRes">
+                
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
