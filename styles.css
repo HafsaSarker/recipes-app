@@ -193,7 +193,7 @@ form{
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
 }
-.search-btn{
+.search-btn img{
     float: left;
     height: 40px;
     width: 40px;
@@ -248,7 +248,7 @@ input:focus {
         margin: 16px 0;
         border: none;
     }
-    
+
     .nav-link{
         color: #fafafa;
         background-color: #FF670A;
@@ -360,7 +360,7 @@ input:focus {
     text-align: center;
     align-items: center;
     overflow-y: scroll;
-    
+
 
 }
 .buttonX{
